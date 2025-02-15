@@ -31,3 +31,8 @@ def extract_html_tags(text):
     return re.findall(html_tag_pattern, text)
 
 # 6. Extracting Hashtags
+def extract_hashtags(text):
+    hashtag_pattern =r'#\w+'
+    return re.findall(hashtag_pattern, text)
+
+# 7. Extracting Currency Amounts
