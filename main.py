@@ -46,3 +46,22 @@ def extract_times(text):
     return re.findall(time_pattern, text)
 
 # Main function to load the text and run the extractions
+def main():
+    main_sample = load_sample_text('main_sample.txt')
+
+    if not main_sample:
+        print("Error: The file could not be found.")
+        return
+    
+    print("Extracted Emails:", extract_Emails(main_sample))
+    print("Extracted URLs:", extract_urls(main_sample))
+    print("Extracted Phone Numbers:", extract_phone_numbers(main_sample))
+    print("Extracted Credit Card Numbers:", extract_credit_cards(main_sample))
+    print("Extracted HTML Tags:", extract_html_tags(main_sample))
+    print("Extracted Hashtags:", extract_hashtags(main_sample))
+    print("Extracted Currency Amounts:", extract_currency_amounts(main_sample))
+    print("Extracted Times:", extract_times(main_sample))
+  
+
+if __name__ == '__main__':
+    main()
