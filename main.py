@@ -11,3 +11,8 @@ def extract_Emails(Emails):
     return re.findall(Emails_pattern, Emails)
 
 # 2. Extracting URLs
+def extract_urls(text):
+    url_pattern = r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+'
+    return re.findall(url_pattern, text)
+
+# 3. Extracting Phone Numbers (various formats)
