@@ -1,4 +1,4 @@
-Emails: contact@mail.com, john.doe@business.org
+Emails: contact@gmail.com, john.doe@business.org
 URLs: https://example.net, http://blog.website.com/article
 Phone Numbers: +1 (555) 678-9012, 555-678-9012, 555.678.9012
 Credit Card Numbers: 4321 8765 2109 6543, 4321-8765-2109-6543
