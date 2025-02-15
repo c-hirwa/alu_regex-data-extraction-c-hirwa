@@ -41,3 +41,8 @@ def extract_currency_amounts(text):
     return re.findall(currency_pattern, text)
 
 # 8. Extracting Time in 12-hour or 24-hour format
+def extract_times(text):
+    time_pattern =  r'\b(?:[01][0-9]|2[0-3]):[0-5][0-9]\b|(?:0?[1-9]|1[0-2]):[0-5][0-9] ?(?:AM|PM)\b'
+    return re.findall(time_pattern, text)
+
+# Main function to load the text and run the extractions
