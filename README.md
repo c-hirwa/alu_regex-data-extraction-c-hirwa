@@ -13,25 +13,4 @@ Developed for the Regex Onboarding Hackathon at ALU, this Python-based web app e
 Ensure you have:  
 - Python 3.x (for running Python scripts)  
 - Git (for cloning the repository)  
-- A text editor or IDE (e.g., VS Code, PyCharm)  
-
-#### Installation  
-1. Clone the repository:  
-
-   git clone https://github.com/c-hirwa/alu_regex-data-extraction-c-hirwa
-   cd alu_regex-data-extraction-group1
-
-2. (Optional) Create a virtual environment:  
-
-   python3 -m venv env  
-   source env/bin/activate  # Linux/MacOS  
-   .\env\Scripts\activate   # Windows  
-
-3. Install dependencies:  
-
-   pip install -r requirements.txt
-
-### Usage  
-Run example scripts:  
-
-python <main>.py
+- A text editor or IDE (e.g., VS Code, PyCharm)
