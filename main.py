@@ -16,3 +16,8 @@ def extract_urls(text):
     return re.findall(url_pattern, text)
 
 # 3. Extracting Phone Numbers (various formats)
+def extract_phone_numbers(text):
+    phone_pattern = r'(\(?\d{3}\)?[\s.-]?)?\d{3}[\s.-]?\d{4}'
+    return re.findall(phone_pattern, text)
+
+# 4. Extracting Credit Card Numbers
