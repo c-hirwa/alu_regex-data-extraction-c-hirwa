@@ -26,3 +26,8 @@ def extract_credit_cards(text):
     return re.findall(credit_card_pattern, text)
 
 # 5. Extracting HTML Tags
+def extract_html_tags(text):
+    html_tag_pattern = r'<[^>]+>'
+    return re.findall(html_tag_pattern, text)
+
+# 6. Extracting Hashtags
