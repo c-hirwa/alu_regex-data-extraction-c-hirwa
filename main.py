@@ -21,3 +21,8 @@ def extract_phone_numbers(text):
     return re.findall(phone_pattern, text)
 
 # 4. Extracting Credit Card Numbers
+def extract_credit_cards(text):
+    credit_card_pattern = r'(\d{4}[-\s]?){3}\d{4}'
+    return re.findall(credit_card_pattern, text)
+
+# 5. Extracting HTML Tags
