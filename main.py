@@ -36,3 +36,8 @@ def extract_hashtags(text):
     return re.findall(hashtag_pattern, text)
 
 # 7. Extracting Currency Amounts
+def extract_currency_amounts(text):
+    currency_pattern = r'\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?'
+    return re.findall(currency_pattern, text)
+
+# 8. Extracting Time in 12-hour or 24-hour format
