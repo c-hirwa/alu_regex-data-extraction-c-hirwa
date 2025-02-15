@@ -1,7 +1,3 @@
-Here's a more concise version of your README:  
-
----
-
 # Regex Data Extraction Application  
 
 ### Overview  
